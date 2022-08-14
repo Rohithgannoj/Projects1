@@ -11,4 +11,9 @@ public class AppController {
 	{
 		return "Hello";
 	}
+	@GetMapping("/msg2")
+	public String message2()
+	{
+		return "Hello world";
+	}
 }
